@@ -1,23 +1,89 @@
 /* Styles for Mobile Site */
-
+* {
+    box-sizing: border-box;
+  }
+body{
+    background-color: #33312B ;
+    color:white
+}
+header{
+    text-align: center;
+    
+}
+hr{
+    color:#847244;
+}
+h2{
+    font-size: 1rem;
+}
+h3{
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.subText{
+    text-align: center;
+    
+}
 /* Header & Hero */
 
 /* Projects */
+.ImagesProjects{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.description{
+    padding: 10%;
+}
 
 /* Reviews */
+.titletext{
+    text-align: center;
+    margin:auto;
+}
+.name{
+    text-align: center;
+}
+.review{
+text-align: center;
+border: 15px #D9A627;
 
+}
 /* Footer */
 
-
+footer{
+    text-align: center;
+    margin:3rem;
+}
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
 
     /* Header & Hero */
 
     /* Projects */
-
+    .project {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .projects::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
     /* Reviews */
-
+    
     /* Footer */
 
 }
