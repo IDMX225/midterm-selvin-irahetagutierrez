@@ -26,7 +26,7 @@ h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 30%;
 }
 .subText{
     text-align: center;
@@ -68,7 +68,12 @@ footer{
 @media (min-width: 1000px) {
 
     /* Header & Hero */
-
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
     /* Projects */
     .project {
         float: left;
